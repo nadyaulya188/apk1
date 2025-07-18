@@ -1,4 +1,4 @@
-import streamlit as st
+koimport streamlit as st
 
 # Kamus gugus fungsi
 gugus_fungsi_kamus = {
@@ -36,7 +36,6 @@ kamus_nama_senyawa = {
     'CH3CH2CH2CH3': {'iupac': 'Butana', 'trivial': '-'},
     'CH3CH2CH2CH2CH3': {'iupac': 'Pentana', 'trivial': '-'},
     'CH3CH2CH2CH2CH2CH3': {'iupac': 'Heksana', 'trivial': '-'}
-# Alkana (C1–C10)
     'CH4': {'iupac': 'Metana', 'trivial': '-'},
     'CH3CH3': {'iupac': 'Etana', 'trivial': '-'},
     'CH3CH2CH3': {'iupac': 'Propana', 'trivial': '-'},
@@ -47,8 +46,6 @@ kamus_nama_senyawa = {
     'CH3CH2CH2CH2CH2CH2CH2CH3': {'iupac': 'Oktana', 'trivial': '-'},
     'CH3CH2CH2CH2CH2CH2CH2CH2CH3': {'iupac': 'Nonana', 'trivial': '-'},
     'CH3CH2CH2CH2CH2CH2CH2CH2CH2CH3': {'iupac': 'Dekana', 'trivial': '-'},
-
-# Alkena (C2–C10, ikatan rangkap di posisi 1)
     'CH2=CH2': {'iupac': 'Etena', 'trivial': 'Etilena'},
     'CH2=CHCH3': {'iupac': 'Propena', 'trivial': 'Propilena'},
     'CH2=CHCH2CH3': {'iupac': 'Butena', 'trivial': '-'},
@@ -58,8 +55,6 @@ kamus_nama_senyawa = {
     'CH2=CHCH2CH2CH2CH2CH2CH3': {'iupac': 'Oktena', 'trivial': '-'},
     'CH2=CHCH2CH2CH2CH2CH2CH2CH3': {'iupac': 'Nonena', 'trivial': '-'},
     'CH2=CHCH2CH2CH2CH2CH2CH2CH2CH3': {'iupac': 'Dekena', 'trivial': '-'},
-
-# Alkuna (C2–C10, ikatan rangkap tiga di posisi 1)
     'CH≡CH': {'iupac': 'Etuna', 'trivial': 'Asetilena'},
     'CH≡CCH3': {'iupac': 'Propuna', 'trivial': '-'},
     'CH≡CCH2CH3': {'iupac': 'Butuna', 'trivial': '-'},
